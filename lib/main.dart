@@ -1,17 +1,15 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'auth/firebase_user_provider.dart';
-import 'auth/auth_util.dart';
+import 'src/auth/firebase_user_provider.dart';
+import 'src/auth/auth_util.dart';
 
-import 'flutter_flow/flutter_flow_theme.dart';
-import 'flutter_flow/flutter_flow_util.dart';
-import 'flutter_flow/internationalization.dart';
-import 'flutter_flow/nav/nav.dart';
-import 'index.dart';
+import 'src/flutter_flow/flutter_flow_theme.dart';
+import 'src/flutter_flow/flutter_flow_util.dart';
+import 'src/flutter_flow/internationalization.dart';
+import 'src/flutter_flow/nav/nav.dart';
 
-import 'backend/stripe/payment_manager.dart';
+import 'src/backend/stripe/payment_manager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
